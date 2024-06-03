@@ -1,0 +1,11 @@
+// Custom Bootstrap variables (if needed)
+$primary: #6c757d;
+
+// Import Bootstrap and Bootstrap Icons
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+// Custom styles
+body {
+  background-color: #f8f9fa; /* Custom background color */
+}
