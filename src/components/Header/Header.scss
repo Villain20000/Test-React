@@ -1,0 +1,17 @@
+/* src/components/Header.scss */
+$brand-color: #5a5a5a;
+
+.navbar-brand {
+  img {
+    margin-right: 10px;
+  }
+}
+
+.nav-link {
+  margin-right: 15px;
+  color: $brand-color;
+
+  &:hover {
+    color: darken($brand-color, 10%);
+  }
+}
